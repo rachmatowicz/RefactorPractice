@@ -1,6 +1,6 @@
 package com.fred.test;
 
-import com.fred.server.MyNewServer;
+import com.fred.server.MyServer;
 import org.junit.Test;
 
 /**
@@ -11,7 +11,7 @@ import org.junit.Test;
  * To change this template use File | Settings | File Templates.
  */
 public class MyServerTest {
-    MyNewServer s = new MyNewServer() ;
+    MyServer s = new MyServer() ;
 
     @Test
     public void testGetF() throws Exception {

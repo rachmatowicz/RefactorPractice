@@ -1,6 +1,6 @@
 package com.fred.test;
 
-import com.fred.client.MyNewClient;
+import com.fred.client.MyClient;
 import org.junit.Test;
 
 /**
@@ -11,7 +11,7 @@ import org.junit.Test;
  * To change this template use File | Settings | File Templates.
  */
 public class MyClientTest {
-    MyNewClient c = new MyNewClient() ;
+    MyClient c = new MyClient() ;
 
     @Test
     public void testGetI() throws Exception {

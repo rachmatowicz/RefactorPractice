@@ -7,7 +7,7 @@ package com.fred.server;
  * Time: 4:12 PM
  * To change this template use File | Settings | File Templates.
  */
-public class MyNewServer {
+public class MyServer {
 
     static float ff = 0 ;
     float f = 0 ;
@@ -21,7 +21,7 @@ public class MyNewServer {
     }
 
     public static void main(String[] args) {
-        System.out.println("MyNewServer");
+        System.out.println("MyServer");
         System.out.println("The value of ff is " + ff);
     }
 }

@@ -7,7 +7,7 @@ package com.fred.client;
  * Time: 4:09 PM
  * To change this template use File | Settings | File Templates.
  */
-public class MyNewClient {
+public class MyClient {
     static int iii = 0 ;
     int i = 0 ;
 
@@ -20,7 +20,7 @@ public class MyNewClient {
     }
 
     public static void main(String[] args) {
-        System.out.println("MyNewClient");
+        System.out.println("MyClient");
         System.out.println("The value of iii is " + iii);
     }
 }
