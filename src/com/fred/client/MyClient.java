@@ -7,16 +7,16 @@ package com.fred.client;
  * Time: 4:09 PM
  * To change this template use File | Settings | File Templates.
  */
-public class MyClient {
+public class MyClient extends MyClientBase {
     static int iii = 0 ;
-    int i = 0 ;
+    double j = 0 ;
 
-    public int getI() {
-        return i;
+    public double getJ() {
+        return j;
     }
 
-    public void setI(int i) {
-        this.i = i;
+    public void setJ(double j) {
+        this.j = j;
     }
 
     public static void main(String[] args) {
